@@ -15,31 +15,31 @@ PhotonCUE ist aus dem Problem heraus entstanden, dass keine freie und einfach zu
 
 ### Wie funktioniert PhotonCUE?
 
-PhotonCUE nutzt den Export "Sammlung in XML-Format exportieren" von Rekordbox und gleicht die daraus resultierende XML-Datei mit der Datenbank von Mixed in Key ab.
+PhotonCUE nutzt den Export "Sammlung in XML-Format exportieren" von *Rekordbox* und gleicht die daraus resultierende XML-Datei mit der Datenbank von *Mixed in Key* ab.
 
 #### Schritt für Schritt Anleitung
 
-1. Tracks in Mixed In Key scannen und in Rekordbox importieren
+1. Tracks in *Mixed In Key* scannen und in *Rekordbox* importieren
 
-    Scanne alle Tracks in Mixed in Key und importiere die Tracks danach in Rekordbox.
+    Scanne alle Tracks in *Mixed in Key* und importiere die Tracks danach in *Rekordbox*.
     
     ![Schritt 1](https://github.com/mathiassname/photoncue-build/raw/main/documentation/img/step_1.png)
 
 1. Sammlung in XML-Format exportieren
 
-    Öffne Rekordbox und navigiere zu dem Menüpunkt "Datei" und klicke danach auf "Sammlung in XML-Format exportieren". Über den öffnenden Dialog wird deine Sammlung als XML-Datei auf deinen Desktop z.B. unter dem Namen ```rekordbox.xml``` exportiert.
+    Öffne *Rekordbox* und navigiere zu dem Menüpunkt "Datei" und klicke danach auf "Sammlung in XML-Format exportieren". Über den sich öffnenden Dialog wird deine Sammlung als XML-Datei exportiert.
 
     ![Schritt 2](https://github.com/mathiassname/photoncue-build/raw/main/documentation/img/step_2.png)
 
-1. Einstellungen von Rekordbox anpassen
+1. Einstellungen von *Rekordbox* anpassen
 
-    Öffne die "Voreinstellungen", diese findest du unter dem Menüpunkt "rekordbox". Navigiere in dem sich öffnenden Menü zu "Erweitert" und dem Tab "Datenbank" und passe den Pfad unter "Importierte Bibliothek" zu deiner XML-Datei an.
+    Öffne die "Voreinstellungen", diese findest du unter dem Menüpunkt "rekordbox". Navigiere in dem sich öffnenden Menü zu "Erweitert" und dem Tab "Datenbank" und passe den Pfad unter "Importierte Bibliothek" so an, dass dieser auf deine XML-Datei zeigt.
 
     ![Schritt 3](https://github.com/mathiassname/photoncue-build/raw/main/documentation/img/step_3.png)
 
 1. PhotonCUE starten
 
-    Starte nun PhotonCUE und wähle über "Rekordbox XML-Sammlung auswählen" den Pfad deiner XML-Datei aus. Wenn der Slider "Memory-CUE-Points überschreiben (Hotcues bleiben bestehen)" aktiviert ist, dann werden alle Memory-Cuepoints in der ausgewählten XML-Datei überschrieben. Hot Cues bleiben erhalten.
+    Starte nun *PhotonCUE* und wähle über "Rekordbox XML-Sammlung auswählen" den Pfad deiner XML-Datei aus. Wenn der Slider "Memory-CUE-Points überschreiben (Hotcues bleiben bestehen)" aktiviert ist, dann werden alle Memory-Cuepoints in der ausgewählten XML-Datei überschrieben. Hot Cues bleiben erhalten.
 
     ![Schritt 4](https://github.com/mathiassname/photoncue-build/raw/main/documentation/img/step_4.png)
 
@@ -59,11 +59,11 @@ PhotonCUE nutzt den Export "Sammlung in XML-Format exportieren" von Rekordbox un
 
 1. Importieren der Cuepoints
 
-   Um die Cuepoints nach Rekordbox zu importieren muss in der Seitenleiste der Navigationspunkt "rekordbox xml" gewählt werden. Über "Alle Tracks" sollten nun alle Songtitel auffindbar sein mit einem Rechtsklick auf den gewünschten Songtitel und mit Klick auf "In Sammlung importieren" importierst du alle Informationen aus deiner XML-Datei neu in Rekordbox.
+   Um die Cuepoints nach *Rekordbox* zu importieren muss in der Seitenleiste der Navigationspunkt "rekordbox xml" gewählt werden. Über "Alle Tracks" sollten nun alle Songtitel auffindbar sein mit einem Rechtsklick auf den gewünschten Songtitel und mit Klick auf "In Sammlung importieren" importierst du alle Informationen aus deiner XML-Datei neu in *Rekordbox*.
 
     ![Schritt 6.1](https://github.com/mathiassname/photoncue-build/raw/main/documentation/img/step_6_1.png)
 
-   Wenn der Titel bereits in Rekordbox vorhanden ist, erscheint der folgende Dialog. Dieser muss mit "Ja" bestätigt werden.
+   Wenn der Titel bereits in *Rekordbox* vorhanden ist, erscheint der folgende Dialog. Dieser muss mit "Ja" bestätigt werden.
 
     ![Schritt 6.2](https://github.com/mathiassname/photoncue-build/raw/main/documentation/img/step_6_2.png)
    
@@ -71,7 +71,7 @@ PhotonCUE nutzt den Export "Sammlung in XML-Format exportieren" von Rekordbox un
 
 1. Fertig
 
-   Nun sollte wie im folgenden Screenshot zu sehen die Memory-Cuepoints in Rekordbox vorhanden sein.
+   Nun sollte wie im folgenden Screenshot zu sehen, die Memory-Cuepoints in *Rekordbox* enthalten sein.
 
     ![Schritt 7](https://github.com/mathiassname/photoncue-build/raw/main/documentation/img/step_7.png)
 
@@ -101,7 +101,7 @@ Für die Weiterentwicklung von PhotonCUE sind bereits folgende Punkte auf der To
 
 ### Wie kann ich helfen?
 
-Es gibt viele Wege, ein Projekt unterstützen kann. Auf folgende Weise kannst du PhotonCUE unterstützen:
+Es gibt viele Wege, wie du ein Projekt unterstützen kannst. Auf folgende Weise kannst du PhotonCUE unterstützen:
 
 * Bugs melden: https://github.com/mathiassname/photoncue-build/issues/
 * Teile PhotonCUE mit Freunden und Bekannten
